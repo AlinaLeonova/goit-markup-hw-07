@@ -29,28 +29,28 @@
   fill: var(--primary-white-color);
 }
 
-.footer .socials-list {
-  display: flex;
-  align-items: baseline;
-  justify-content: flex-start;
-}
+.footer {
+  .socials-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+  }
 
-.footer .social-item:not(:last-child) {
-  margin-right: 10px;
-}
+  .social-item:not(:last-child) {
+    margin-right: 10px;
+  }
 
-.footer .social-link {
-  display: flex;
-}
+  .social-link {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
 
-.footer .social-link {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.footer .social-link:hover {
-  background-color: var(--accent-color);
-  transition: transform 500ms ease;
-}
+  .social-link:hover {
+    background-color: var(--accent-color);
+    transition: transform 500ms ease;
+  }
 
-.footer .social-svg {
-  fill: var(--primary-white-color);
+  .social-svg {
+    fill: var(--primary-white-color);
+  }
 }
