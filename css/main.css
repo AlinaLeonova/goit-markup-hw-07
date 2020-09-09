@@ -464,6 +464,7 @@ address {
 }
 
 .footer .socials-list {
+  display: flex;
   align-items: baseline;
   justify-content: flex-start;
 }
