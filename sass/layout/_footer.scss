@@ -11,44 +11,30 @@
     padding: 10px 29px;
     display: flex;
   }
+
+  .socials-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+  }
+
+  .social-link {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .social-link:hover {
+    transition: transform 500ms ease;
+    background-color: $accent-color;
+  }
+
+  .social-svg {
+    fill: $primary-white;
+  }
 }
 
 .footer-section {
   min-width: 270px;
   margin-right: 30px;
-}
-
-.address {
-  font-size: 14px;
-}
-
-.address-item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.maps {
-  font-weight: 400;
-  color: $primary-white;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
-.address-link:hover,
-.address-link:focus {
-  color: $accent-color;
-  transition: transform 500ms ease;
-}
-
-.logo-footer {
-  color: $primary-white;
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  display: block;
-  margin-bottom: 20px;
 }
 
 .call-text {
