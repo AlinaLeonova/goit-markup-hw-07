@@ -1,3 +1,9 @@
+:root {
+  --title-text-color: #212121;
+  --main-font: Roboto, sans-serif;
+  --main-fill-color: #afb1b8;
+}
+
 /* --- CONTAINER --- */
 
 /* HEADER END */
@@ -11,20 +17,16 @@
 /* --- WORK EXAMPLES --- */
 
 /* ----- TEAM ----- */
-
 /* ----- TEAM END ----- */
 
 /* ----- CLIENTS ----- */
 /* ----- CLIENTS END ----- */
 
 /* --- FOOTER --- */
-
 /* SUBMIT FORM */
-
 /* ----- FOOTER END ----- */
 
 /* --- GALLERY --- */
-
 /* --- GALLERY END --- */
 
 /* ----- MODAL ----- */

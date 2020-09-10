@@ -19,8 +19,6 @@ img {
 }
 
 body {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   margin: 0;
@@ -54,17 +52,6 @@ address {
   font-style: normal;
 }
 
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-white-color: #ffffff;
-  --secondary-grey-color: #f5f4fa;
-  --background-color: #2f303a;
-  --main-font: Roboto, sans-serif;
-  --main-fill-color: #afb1b8;
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -80,7 +67,7 @@ address {
 }
 
 .section-title {
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -103,8 +90,7 @@ address {
 
 .header {
   display: flex;
-  /* padding: 32px 0; */
-  background-color: var(--primary-white-color);
+  background-color: #ffffff;
   border-bottom: 1px solid #ececec;
 }
 
@@ -136,16 +122,16 @@ address {
 }
 
 .accent {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .current {
-  color: var(--accent-color);
+  color: #2196f3;
   position: relative;
 }
 
 .nav-link {
-  color: var(--title-text-color);
+  color: #212121;
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
@@ -157,7 +143,7 @@ address {
 }
 
 .nav-link:hover, .nav-link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .nav-link:not(:last-child) {
@@ -166,7 +152,7 @@ address {
 
 .current::after {
   content: "";
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   width: 100%;
   height: 4px;
   display: block;
@@ -182,7 +168,7 @@ address {
 }
 
 .contacts-item {
-  color: var(--primary-text-color);
+  color: #757575;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -194,7 +180,7 @@ address {
 }
 
 .contacts-item:hover, .contacts-item:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .contacts-item:not(:last-child) {
@@ -204,14 +190,14 @@ address {
 .contacts-svg {
   width: 20px;
   height: 20px;
-  fill: var(--primary-text-color);
+  fill: #757575;
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-item:hover .contacts-svg,
 .contacts-item:focus .contacts-svg {
-  fill: var(--accent-color);
+  fill: #2196f3;
   cursor: pointer;
 }
 
@@ -230,13 +216,13 @@ address {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: #212121;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .gallery-btn:hover, .gallery-btn:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .gallery-btn:not(:last-child) {
@@ -301,7 +287,7 @@ address {
   width: 100%;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-size: 18px;
   padding: 63px 24px;
   line-height: 1.56;
@@ -321,7 +307,7 @@ address {
 }
 
 .social-link:hover, .social-link:focus {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .social-item:not(:last-child):not(:last-child) {
@@ -331,13 +317,13 @@ address {
 .social-svg {
   width: 20px;
   height: 20px;
-  fill: var(--main-fill-color);
+  fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover .social-svg,
 .social-link:focus .social-svg {
-  fill: var(--primary-white-color);
+  fill: #ffffff;
 }
 
 .footer .socials-list {
@@ -356,16 +342,16 @@ address {
 }
 
 .footer .social-link:hover {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   transition: transform 500ms ease;
 }
 
 .footer .social-svg {
-  fill: var(--primary-white-color);
+  fill: #ffffff;
 }
 
 .footer {
-  background-color: var(--background-color);
+  background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -389,7 +375,7 @@ address {
 
 .maps {
   font-weight: 400;
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -397,12 +383,12 @@ address {
 
 .address-link:hover,
 .address-link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
   transition: transform 500ms ease;
 }
 
 .logo-footer {
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
@@ -418,7 +404,7 @@ address {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -435,10 +421,10 @@ address {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: var(--background-color);
+  background-color: #2f303a;
   border-radius: 4px;
   padding: 15px 26px;
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -463,10 +449,10 @@ address {
 .subscribe-btn {
   min-width: 200px;
   height: 50px;
-  background: var(--accent-color);
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: var(--primary-white-color);
+  color: #ffffff;
   border: 1px solid transparent;
   font-weight: 700;
   font-size: 16px;
@@ -479,7 +465,7 @@ address {
 .subscribe-svg {
   width: 24px;
   height: 24px;
-  fill: var(--primary-white-color);
+  fill: #ffffff;
   margin-left: 10px;
 }
 /*# sourceMappingURL=portfolio.css.map */

@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--background-color);
+  background-color: $background-color;
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -23,7 +23,7 @@
 
 .maps {
   font-weight: 400;
-  color: var(--primary-white-color);
+  color: $primary-white;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -31,12 +31,12 @@
 
 .address-link:hover,
 .address-link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
   transition: transform 500ms ease;
 }
 
 .logo-footer {
-  color: var(--primary-white-color);
+  color: $primary-white;
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
@@ -52,6 +52,6 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: $primary-white;
   margin-bottom: 20px;
 }

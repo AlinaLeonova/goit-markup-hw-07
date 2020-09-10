@@ -19,8 +19,6 @@ img {
 }
 
 body {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   margin: 0;
@@ -54,17 +52,6 @@ address {
   font-style: normal;
 }
 
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-white-color: #ffffff;
-  --secondary-grey-color: #f5f4fa;
-  --background-color: #2f303a;
-  --main-font: Roboto, sans-serif;
-  --main-fill-color: #afb1b8;
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -80,7 +67,7 @@ address {
 }
 
 .section-title {
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -103,8 +90,7 @@ address {
 
 .header {
   display: flex;
-  /* padding: 32px 0; */
-  background-color: var(--primary-white-color);
+  background-color: #ffffff;
   border-bottom: 1px solid #ececec;
 }
 
@@ -136,16 +122,16 @@ address {
 }
 
 .accent {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .current {
-  color: var(--accent-color);
+  color: #2196f3;
   position: relative;
 }
 
 .nav-link {
-  color: var(--title-text-color);
+  color: #212121;
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
@@ -157,7 +143,7 @@ address {
 }
 
 .nav-link:hover, .nav-link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .nav-link:not(:last-child) {
@@ -166,7 +152,7 @@ address {
 
 .current::after {
   content: "";
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   width: 100%;
   height: 4px;
   display: block;
@@ -182,7 +168,7 @@ address {
 }
 
 .contacts-item {
-  color: var(--primary-text-color);
+  color: #757575;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -194,7 +180,7 @@ address {
 }
 
 .contacts-item:hover, .contacts-item:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .contacts-item:not(:last-child) {
@@ -204,20 +190,20 @@ address {
 .contacts-svg {
   width: 20px;
   height: 20px;
-  fill: var(--primary-text-color);
+  fill: #757575;
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-item:hover .contacts-svg,
 .contacts-item:focus .contacts-svg {
-  fill: var(--accent-color);
+  fill: #2196f3;
   cursor: pointer;
 }
 
 .modal-btn {
-  font-family: var(--main-font);
-  background-color: var(--accent-color);
+  font-family: Roboto, sans-serif;
+  background-color: #2196f3;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
@@ -230,7 +216,7 @@ address {
 }
 
 .button-text {
-  color: var(--primary-white-color);
+  color: #ffffff;
   text-align: center;
   font-weight: 700;
   font-size: 16px;
@@ -241,7 +227,7 @@ address {
 }
 
 .button-text:hover, .button-text:focus {
-  color: var(--primary-white-color);
+  color: #ffffff;
 }
 
 .hero {
@@ -250,7 +236,7 @@ address {
   text-align: center;
   justify-content: center;
   height: 600px;
-  background-color: var(--background-color);
+  background-color: #2f303a;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -269,7 +255,7 @@ address {
 
 .hero-title {
   margin: 0;
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -299,7 +285,7 @@ address {
   height: 120px;
   width: 100%;
   margin-bottom: 30px;
-  background-color: var(--secondary-grey-color);
+  background-color: #f5f4fa;
   border-radius: 4px;
   background-image: url();
   background-size: contain;
@@ -327,7 +313,7 @@ address {
 }
 
 .features-title {
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -337,7 +323,7 @@ address {
 }
 
 .features-text {
-  color: var(--primary-text-color);
+  color: #757575;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -373,18 +359,18 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--accent-color);
+  color: #2196f3;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
-  color: var(--primary-white-color);
+  color: #ffffff;
   padding: 27px 0;
 }
 
 .team-sect {
-  background-color: var(--secondary-grey-color);
+  background-color: #f5f4fa;
   padding: 94px 0;
 }
 
@@ -398,13 +384,13 @@ address {
 .team-card {
   width: 270px;
   margin: 15px;
-  background: var(--primary-white-color);
+  background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
 .card-title {
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -414,7 +400,7 @@ address {
 }
 
 .card-description {
-  color: var(--primary-text-color);
+  color: #757575;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -444,7 +430,7 @@ address {
 }
 
 .social-link:hover, .social-link:focus {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .social-item:not(:last-child):not(:last-child) {
@@ -454,13 +440,13 @@ address {
 .social-svg {
   width: 20px;
   height: 20px;
-  fill: var(--main-fill-color);
+  fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover .social-svg,
 .social-link:focus .social-svg {
-  fill: var(--primary-white-color);
+  fill: #ffffff;
 }
 
 .footer .socials-list {
@@ -479,12 +465,12 @@ address {
 }
 
 .footer .social-link:hover {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   transition: transform 500ms ease;
 }
 
 .footer .social-svg {
-  fill: var(--primary-white-color);
+  fill: #ffffff;
 }
 
 .clients-sect {
@@ -513,22 +499,22 @@ address {
 }
 
 .list-item:hover, .list-item:focus {
-  border-color: var(--accent-color);
+  border-color: #2196f3;
   transition: transform 500ms ease;
 }
 
 .logo-svg {
-  fill: var(--main-fill-color);
+  fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-item:hover .logo-svg,
 .list-item:focus .logo-svg {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .footer {
-  background-color: var(--background-color);
+  background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -552,7 +538,7 @@ address {
 
 .maps {
   font-weight: 400;
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -560,12 +546,12 @@ address {
 
 .address-link:hover,
 .address-link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
   transition: transform 500ms ease;
 }
 
 .logo-footer {
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
@@ -581,7 +567,7 @@ address {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -614,7 +600,7 @@ address {
   left: 50%;
   top: 221px;
   transform: translatex(-50%) scale(1);
-  background-color: var(--primary-white-color);
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
@@ -623,8 +609,8 @@ address {
 
 .submit-btn {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  background-color: #2196f3;
+  color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -645,13 +631,13 @@ address {
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  background-color: var(--primary-white-color);
-  fill: var(--title-text-color);
+  background-color: #ffffff;
+  fill: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn:hover, .close-btn:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .modal-form {
@@ -667,7 +653,7 @@ address {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: #212121;
   border-radius: 1px;
 }
 
@@ -682,7 +668,7 @@ address {
 }
 
 .form-input:hover, .form-input:focus {
-  border-color: var(--accent-color);
+  border-color: #2196f3;
   outline: none;
 }
 
@@ -697,7 +683,7 @@ address {
 }
 
 .form-comment:hover, .form-comment:focus {
-  border-color: var(--accent-color);
+  border-color: #2196f3;
   outline: none;
 }
 
@@ -719,7 +705,7 @@ address {
 
 .form-input:focus + .form-svg,
 .form-input:hover + .form-svg {
-  fill: var(--accent-color);
+  fill: #2196f3;
 }
 
 .input-label {
@@ -738,16 +724,12 @@ address {
   align-items: center;
 }
 
-.checkbox:checked + .checkbox-label::before {
-  background-color: var(--accent-color);
-}
-
 .checkbox-label::before {
   display: block;
   content: "";
   width: 16px;
   height: 16px;
-  background-color: var(--primary-white-color);
+  background-color: #ffffff;
   border: 1px solid #212121;
   border-radius: 4px;
   background-image: url(../images/check.svg);
@@ -756,9 +738,13 @@ address {
   margin-right: 7px;
 }
 
+.checkbox:checked + .checkbox-label::before {
+  background-color: #2196f3;
+}
+
 .policy-link {
   text-decoration: underline;
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .submit-form {
@@ -774,10 +760,10 @@ address {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: var(--background-color);
+  background-color: #2f303a;
   border-radius: 4px;
   padding: 15px 26px;
-  color: var(--primary-white-color);
+  color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -802,10 +788,10 @@ address {
 .subscribe-btn {
   min-width: 200px;
   height: 50px;
-  background: var(--accent-color);
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: var(--primary-white-color);
+  color: #ffffff;
   border: 1px solid transparent;
   font-weight: 700;
   font-size: 16px;
@@ -818,7 +804,7 @@ address {
 .subscribe-svg {
   width: 24px;
   height: 24px;
-  fill: var(--primary-white-color);
+  fill: #ffffff;
   margin-left: 10px;
 }
 /*# sourceMappingURL=main.css.map */

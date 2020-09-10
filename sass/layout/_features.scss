@@ -18,7 +18,7 @@
     height: 120px;
     width: 100%;
     margin-bottom: 30px;
-    background-color: var(--secondary-grey-color);
+    background-color: $secondary-grey;
     border-radius: 4px;
     background-image: url();
     background-size: contain;
@@ -47,7 +47,7 @@
 }
 
 .features-title {
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -57,7 +57,7 @@
 }
 
 .features-text {
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
