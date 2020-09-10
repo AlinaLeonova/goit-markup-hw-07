@@ -1,8 +1,12 @@
 @import "./base/base";
 @import "./utils/variables";
+@import "./utils/visually-hidden";
 @import "./components/container";
 @import "./components/section";
-@import "./utils/visually-hidden";
+@import "./components/logo";
+@import "./components/button";
+@import "./components/modal";
+@import "./components/form";
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/features";
@@ -11,5 +15,4 @@
 @import "./components/socials";
 @import "./layout/clients";
 @import "./layout/footer";
-@import "./layout/modal";
 @import "./components/submitform";
