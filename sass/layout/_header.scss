@@ -1,11 +1,6 @@
 .header {
   display: flex;
-  background-color: $primary-white;
   border-bottom: 1px solid #ececec;
-
-  .logo {
-    color: $title-text-color;
-  }
 }
 .header-flex {
   display: flex;
@@ -20,6 +15,17 @@
 .nav-item {
   margin: 0;
   display: flex;
+}
+
+.logo {
+  color: #212121;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-right: 93px;
+  padding: 24px 0;
 }
 
 .accent {
